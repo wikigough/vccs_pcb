@@ -247,7 +247,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "vickys_symbols"
+    ]
   },
   "meta": {
     "filename": "vccs.kicad_pro",
@@ -408,6 +410,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "51025367-ee35-4aed-b93f-40c834da1868",
+      "Root"
+    ],
+    [
+      "9e4cba35-c259-4fe0-b106-0611d11078df",
+      "sink"
+    ],
+    [
+      "3166c0d2-6a2b-4800-bf61-0bbb68d09ec0",
+      "sense_resistors"
+    ],
+    [
+      "fd723a79-29ad-48e9-a001-382369e3d2f7",
+      "power"
+    ]
+  ],
   "text_variables": {}
 }

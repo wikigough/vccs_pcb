@@ -1,0 +1,136 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*May 22, 2017
+*ECN S17-0800, Rev. A
+*File Name: SiRA26DP_PS_RC.txt and SiRA26DP_PS_RC.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SiRA26DP D G S 
+M1 3 GX S S NMOS W= 5065000u L= 0.30u 
+M2 S GX S D PMOS W= 5065000u L= 0.1u 
+R1 D 3 1.806e-03 TC=2.906e-03,1.033e-05
+CGS GX S 1.101e-09 
+CGD GX D 1.008e-13 
+RG G GY 1m 
+RTCV 100 S 1e6 TC=1.055e-04,0.145e-06
+ETCV GX GY 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD S D DBD 5065000u 
+**************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 4e-8 
++ RS = 0 KP = 1.817e-05 NSUB = 1.504e+17 
++ KAPPA = 1.055e-01 NFS = 1.020e+11 
++ LD = 0 IS = 0 TPG = 1    )
+*************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 4e-8 
++NSUB = 7.479e+16 IS = 0 TPG = -1    )
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 4.713e-08 T_measured = 25 BV = 26
++RS = 4.791e-03 N = 1.110e+00 IS = 3.461e-12 
++EG = 1.139e+00 XTI = 3.288e-01 TRS1 = 7.017e-05
++CJO = 3.402e-10 VJ = 2.994e+00 M = 6.809e-01 ) 
+.ENDS 
+
+* source COMPONENT GENERATOR
+.SUBCKT SiRA26DP_PS_RC D G S PARAMS: C2=1000 R1=1M C3=1000 R2=1M C4=1000 R3=1M
++  C5=1000 R4=1M R5=1M C1=1000
+C_CT6         N11708 N11712  81.3986m  TC=0,0 
+C_CF2         0 N16364  51.2377m  TC=0,0 
+R_RT1         j-a-Temp-Tank N11404  5.7450 TC=0,0 
+C_CF7         0 N18737  12.6966u  TC=0,0 
+R_RT7         N11712 N11716  33.4561m TC=0,0 
+C_CF4         0 N16388  1.0363  TC=0,0 
+G_G7         0 JUNCTION-TEMPERATURE-1RC VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+C_C10         N94536 N94151  {C4}  TC=0,0 
+C_C12         N95722 N95798  {C2}  TC=0,0 
+C_C5         N92368 N92773  {C2}  TC=0,0 
+V_V_Gate         G GATE 0VDC
+R_RT3         N11408 N11412  13.8396 TC=0,0 
+C_C8         N94061 N94123  {C2}  TC=0,0 
+R_RF3         N16384 N16388  13.2889 TC=0,0 
+V_V4         N11732 0 {TEMP}
+R_R10         N94536 N94151  {R4} TC=0,0 
+R_R5         N92368 N92773  {R2} TC=0,0 
+X_U1         DRAIN GATE SOURCE SIRA26DP 
+C_C3         N91434 N91125  {C2}  TC=0,0 
+R_R12         N95722 N95798  {R2} TC=0,0 
+R_R8         N94061 N94123  {R2} TC=0,0 
+R_RT8         N11716 N11732  952.1236m TC=0,0 
+R_RT6         N11708 N11712  1.2001 TC=0,0 
+R_R3         N91434 N91125  {R2} TC=0,0 
+G_DissipationPower         0 j-a-Temp-Filter VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+C_CT2         N11404 N11408  2.1822  TC=0,0 
+R_RT5         j-c-Temp-Tank N11708  714.3203m TC=0,0 
+C_C1         JUNCTION-TEMPERATURE-1RC N89014  {C1}  TC=0,0 
+C_C13         N95798 N95860  {C3}  TC=0,0 
+R_RF2         N16364 N16384  13.8391 TC=0,0 
+V_V3         N11450 0 {TEMP}
+C_C9         N94123 N94536  {C3}  TC=0,0 
+R_R13         N95798 N95860  {R3} TC=0,0 
+R_RF8         N18741 N18767  1.2888 TC=0,0 
+C_CT1         j-a-Temp-Tank N11404  2.3814m  TC=0,0 
+R_RF1         j-a-Temp-Filter N16364  5.0229 TC=0,0 
+R_RT2         N11404 N11408  12.9065 TC=0,0 
+R_R9         N94123 N94536  {R3} TC=0,0 
+C_CT4         N11412 N11450  2.0975  TC=0,0 
+R_RF5         j-c-Temp-Filter N18733  777.8998m TC=0,0 
+V_V5         N16436 0 {TEMP}
+C_CT3         N11408 N11412  82.5484m  TC=0,0 
+G_G5         0 j-a-Temp-Tank VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+C_C4         JUNCTION-TEMPERATURE-3RC N92368  {C1}  TC=0,0 
+R_RF7         N18737 N18741  276.5068m TC=0,0 
+C_C14         N95860 N96370  {C4}  TC=0,0 
+C_C11         JUNCTION-TEMPERATURE-5RC N95722  {C1}  TC=0,0 
+R_RT4         N11412 N11450  37.5089 TC=0,0 
+C_CF8         0 N18741  32.4387m  TC=0,0 
+C_C7         JUNCTION-TEMPERATURE-4RC N94061  {C1}  TC=0,0 
+R_R1         JUNCTION-TEMPERATURE-1RC N89014  {R1} TC=0,0 
+C_C2         JUNCTION-TEMPERATURE-2RC N91434  {C1}  TC=0,0 
+R_R4         JUNCTION-TEMPERATURE-3RC N92368  {R1} TC=0,0 
+R_R14         N95860 N96370  {R4} TC=0,0 
+R_R11         JUNCTION-TEMPERATURE-5RC N95722  {R1} TC=0,0 
+C_CF5         0 j-c-Temp-Filter  1.6067m  TC=0,0 
+C_CF1         0 j-a-Temp-Filter  1.4962m  TC=0,0 
+R_R7         JUNCTION-TEMPERATURE-4RC N94061  {R1} TC=0,0 
+R_R2         JUNCTION-TEMPERATURE-2RC N91434  {R1} TC=0,0 
+C_CT5         j-c-Temp-Tank N11708  2.1305m  TC=0,0 
+C_C15         N96370 N95888  {C5}  TC=0,0 
+V_V9         N92392 0 {TEMP}
+V_V_Source         SOURCE S 0VDC
+V_V11         N95888 0 {TEMP}
+R_RF4         N16388 N16436  37.8491 TC=0,0 
+C_CT8         N11716 N11732  33.2471m  TC=0,0 
+V_V10         N94151 0 {TEMP}
+R_R15         N96370 N95888  {R5} TC=0,0 
+G_G4         0 j-c-Temp-Filter VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+V_V8         N91125 0 {TEMP}
+C_C6         N92773 N92392  {C3}  TC=0,0 
+C_CT7         N11712 N11716  79.3460u  TC=0,0 
+G_G9         0 JUNCTION-TEMPERATURE-3RC VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+C_CF6         0 N18733  15.7144m  TC=0,0 
+R_R6         N92773 N92392  {R3} TC=0,0 
+G_G11         0 JUNCTION-TEMPERATURE-5RC VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+V_V7         N89014 0 {TEMP}
+C_CF3         0 N16384  566.5717m  TC=0,0 
+G_G10         0 JUNCTION-TEMPERATURE-4RC VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+G_G8         0 JUNCTION-TEMPERATURE-2RC VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+R_RF6         N18733 N18737  556.7790m TC=0,0 
+V_V_Drain         D DRAIN 0VDC
+G_G6         0 j-c-Temp-Tank VALUE {
++  (V(Drain)*I(V_V_Drain)+V(Gate)*I(V_V_Gate)+V(Source)*I(V_V_Source)) }
+V_V6         N18767 0 {TEMP}
+.ENDS
