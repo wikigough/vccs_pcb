@@ -4,49 +4,262 @@
 	(generator_version "9.0")
 	(uuid "458cb699-cb75-4740-aac6-585f031d9ef9")
 	(paper "A4")
+	(title_block
+		(title "SINK")
+		(date "2026-01-23")
+		(rev "A1")
+	)
 	(lib_symbols
-		(symbol "Mechanical:Heatsink_Pad"
+		(symbol "2SCR512P5_1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(property "Reference" "Q"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2SCR512P5"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rohm.com/products/transistors/bipolar-transistors/standard-bipolar-transistors/2scr512p5-product"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Transistor, NPN, SOT-89, 30V, 2A, Medium Power Transistor"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM"
+				(at -6.35 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "2SCR512P5"
+				(at 3.81 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package/Case" "SOT-89-3"
+				(at -1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "SMT"
+				(at 7.62 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Y"
+				(at 11.43 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2SCR512P5_1_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2SCR512P5_1_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FK 244 13 D2 PAK_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "HS"
-				(at 0 5.715 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Heatsink_Pad"
-				(at 0 3.81 0)
+			(property "Value" "FK 244 13 D2 PAK"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.3048 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.3048 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Heatsink with electrical connection, 1 pin"
+			(property "Footprint" "vickys_footprints:FK 244 13 D2 PAK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +268,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "thermal heat temperature"
+			(property "Datasheet" "https://www.farnell.com/datasheets/1902498.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +277,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Heatsink_*"
+			(property "Description" "23x13 mm SMD heatsink for TO-252 TO-263 TO-268"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +286,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_Pad_0_1"
+			(property "Manufacturer" "FISCHER ELEKTRONIK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FK 244 13 D2 PAK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FK 244 13 D2 PAK_1_0_1"
 				(polyline
 					(pts
 						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
@@ -102,7 +351,7 @@
 					)
 				)
 			)
-			(symbol "Heatsink_Pad_1_1"
+			(symbol "FK 244 13 D2 PAK_1_1_1"
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.27)
@@ -441,235 +690,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "vickys_symbols:2SCR512P5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2SCR512P5"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.rohm.com/products/transistors/bipolar-transistors/standard-bipolar-transistors/2scr512p5-product"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Transistor, NPN, SOT-89, 30V, 2A, Medium Power Transistor"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ROHM"
-				(at -6.35 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "2SCR512P5"
-				(at 3.81 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package/Case" "SOT-89-3"
-				(at -1.27 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounting Type" "SMT"
-				(at 7.62 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RoHS" "Y"
-				(at 11.43 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2SCR512P5_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.635) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "2SCR512P5_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1544,6 +1564,12 @@
 		(uuid "6cf83567-9e1f-4055-a4e8-f2fac5494e09")
 	)
 	(junction
+		(at 194.31 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d17f67-adf9-4fcd-8aeb-36f4ed2166d7")
+	)
+	(junction
 		(at 172.72 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1631,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 128.27) (xy 194.31 96.52)
+			(xy 194.31 128.27) (xy 194.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 44.45) (xy 209.55 44.45)
+			(xy 194.31 44.45) (xy 215.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1991,6 +2017,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 115.57) (xy 217.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc27cb94-62a8-4d26-b335-281ee40a13f8")
+	)
+	(wire
+		(pts
 			(xy 25.4 166.37) (xy 31.75 166.37)
 		)
 		(stroke
@@ -2018,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "d33d75f1-b669-43ef-bc3e-645d351148d0")
+	)
+	(wire
+		(pts
+			(xy 194.31 115.57) (xy 194.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55ed47d-8dc6-4f9b-9c3c-9d5a3e809b53")
 	)
 	(wire
 		(pts
@@ -2091,7 +2137,7 @@
 	)
 	(hierarchical_label "SINK_IN"
 		(shape input)
-		(at 209.55 44.45 0)
+		(at 215.9 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,6 +2156,18 @@
 			(justify right)
 		)
 		(uuid "66284a2e-53fb-4cbb-a847-f9a1fb4d6679")
+	)
+	(hierarchical_label "ISENSE"
+		(shape output)
+		(at 217.17 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "a14ebfbf-79c3-4f1d-8789-1b1ccd809405")
 	)
 	(hierarchical_label "SINK_SELECT[0..4]"
 		(shape input)
@@ -2783,124 +2841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "vickys_symbols:2SCR512P5")
-		(at 171.45 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3feda9ad-fceb-465a-bc2e-acd427463a47")
-		(property "Reference" "Q2"
-			(at 173.99 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SCR512P5"
-			(at 173.99 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 171.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/products/transistors/bipolar-transistors/standard-bipolar-transistors/2scr512p5-product"
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transistor, NPN, SOT-89, 30V, 2A, Medium Power Transistor"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROHM"
-			(at 165.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2SCR512P5"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package/Case" "SOT-89-3"
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "SMT"
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS" "Y"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "00f3242a-3687-4b25-8137-52433ed432dd")
-		)
-		(pin "B"
-			(uuid "88fa6d7b-92a4-40cf-968b-deeb5f82bca3")
-		)
-		(pin "C"
-			(uuid "7f14fe44-1b98-4139-8634-cdfe39a608ca")
-		)
-		(instances
-			(project "vccs"
-				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-2V5")
 		(at 116.84 73.66 180)
 		(unit 1)
@@ -3027,6 +2967,229 @@
 			(project "vccs"
 				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2SCR512P5_1")
+		(lib_id "vickys_symbols:2SCR512P5")
+		(at 171.45 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7554e2d2-7956-4eec-818a-9119b6033fe4")
+		(property "Reference" "Q2"
+			(at 173.99 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SCR512P5"
+			(at 173.99 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 171.45 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/products/transistors/bipolar-transistors/standard-bipolar-transistors/2scr512p5-product"
+			(at 171.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor, NPN, SOT-89, 30V, 2A, Medium Power Transistor"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2SCR512P5"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "SOT-89-3"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef380e35-2b8d-4b6a-9edd-9e8f626dabe3")
+		)
+		(pin "2"
+			(uuid "f842a708-1f9a-4b19-aa20-573ca9e90ec8")
+		)
+		(pin "3"
+			(uuid "ea27b1cc-d36c-41a2-a478-fe68e0e658ef")
+		)
+		(instances
+			(project ""
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "FK 244 13 D2 PAK_1")
+		(lib_id "vickys_symbols:FK 244 13 D2 PAK")
+		(at 200.66 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b29524-7994-46db-a5d4-542680a3f9c4")
+		(property "Reference" "HS1"
+			(at 204.47 67.2972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FK 244 13 D2 PAK"
+			(at 204.47 69.8372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "vickys_footprints:FK 244 13 D2 PAK"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/1902498.pdf"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "23x13 mm SMD heatsink for TO-252 TO-263 TO-268"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FISCHER ELEKTRONIK"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FK 244 13 D2 PAK"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6914cea-cff3-4154-ad09-bffda911d751")
+		)
+		(instances
+			(project ""
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -3363,73 +3526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
-		(at 200.66 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8791a9f1-2e2d-456f-9209-609d45255158")
-		(property "Reference" "HS1"
-			(at 204.47 67.2972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink_Pad"
-			(at 204.47 69.8372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413D2PAK_26x13mm"
-			(at 199.39 68.8848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 68.8848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 200.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba54aa84-d7dc-48ae-b86f-cfa29eb57ede")
-		)
-		(instances
-			(project ""
-				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df"
-					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "vickys_symbols:TLV9002IDGK")
 		(at 116.84 66.04 0)
 		(unit 1)
@@ -3560,7 +3656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9cdc6f1-0aaf-4874-b3b6-aef82b002cc9")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 182.245 88.9 0)
 			(effects
 				(font
@@ -3666,7 +3762,7 @@
 		(instances
 			(project "vccs"
 				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)

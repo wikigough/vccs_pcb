@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "a92e108c-588e-4091-89ac-3937f7de9c7f")
 	(paper "A4")
+	(title_block
+		(title "SINK SENSE AND SELECT")
+		(date "2026-01-23")
+		(rev "A1")
+	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -96,6 +101,217 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "vickys_symbols:APHHS1005LSECK/J3-PF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LD"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "APHHS1005LSECK/J3-PF"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+				(at 6.35 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED, Red, 1.8V, 5mA, 0402 (1005 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at -12.192 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "APHHS1005LSECK/J3-PF"
+				(at 7.366 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package/Case" "0402"
+				(at 0 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "SMT"
+				(at -4.826 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APHHS1005LSECK/J3-PF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667) (xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 1.651) (xy 1.651 3.175) (xy 1.651 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 3.175) (xy 1.143 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "APHHS1005LSECK/J3-PF_1_1"
+				(text "RED"
+					(at 3.81 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,7 +1344,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 133.35) (xy 88.9 132.08)
+			(xy 88.9 148.59) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054b1cff-73e9-45fa-a304-0eb51e4d129f")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 88.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1188,17 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 133.35) (xy 97.79 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ff8b73-285f-4120-8a2d-c801840c1773")
-	)
-	(wire
-		(pts
-			(xy 115.57 133.35) (xy 115.57 132.08)
+			(xy 115.57 132.08) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 133.35) (xy 124.46 132.08)
+			(xy 124.46 132.08) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1478,6 +1694,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 148.59) (xy 124.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9821d9-ea2c-4348-861b-5f29fdc9d8ba")
+	)
+	(wire
+		(pts
 			(xy 124.46 116.84) (xy 200.66 116.84)
 		)
 		(stroke
@@ -1528,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 132.08) (xy 97.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f16a092-8674-48b7-89b2-4c88cde85235")
+	)
+	(wire
+		(pts
 			(xy 148.59 82.55) (xy 146.05 82.55)
 		)
 		(stroke
@@ -1555,6 +1791,26 @@
 			(type default)
 		)
 		(uuid "aa8eb7d7-529a-4117-a03f-5e4642590d7f")
+	)
+	(wire
+		(pts
+			(xy 97.79 148.59) (xy 97.79 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1599a57-601e-4b0c-9def-7ad0c15d18ff")
+	)
+	(wire
+		(pts
+			(xy 106.68 148.59) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b77cd8-1149-4bcd-95b9-6a4413fddfd5")
 	)
 	(wire
 		(pts
@@ -1678,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 133.35) (xy 106.68 132.08)
+			(xy 106.68 132.08) (xy 106.68 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1745,6 +2001,16 @@
 			(type default)
 		)
 		(uuid "fbaf301c-fb32-4774-b3f0-1d130cfd05f6")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 115.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc485e8d-9eb0-4c71-9c73-0522aa480842")
 	)
 	(wire
 		(pts
@@ -3131,7 +3397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 133.35 0)
+		(at 88.9 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3140,7 +3406,7 @@
 		(fields_autoplaced yes)
 		(uuid "9546ba6d-ac62-4940-b68a-872a747cde5c")
 		(property "Reference" "#PWR06"
-			(at 88.9 139.7 0)
+			(at 88.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 138.43 0)
+			(at 88.9 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 133.35 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 133.35 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 133.35 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,6 +3589,112 @@
 			(project ""
 				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df/3166c0d2-6a2b-4800-bf61-0bbb68d09ec0"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vickys_symbols:APHHS1005LSECK/J3-PF")
+		(at 106.68 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f7fb269-3d94-4a56-826a-d5d8df66dda7")
+		(property "Reference" "LD3"
+			(at 108.458 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHHS1005LSECK/J3-PF"
+			(at 111.76 143.8655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 114.046 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Red, 1.8V, 5mA, 0402 (1005 Metric)"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 115.824 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 116.078 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 118.364 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 118.364 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43d3f5d1-a45c-4179-a5d1-10a28d1bc716")
+		)
+		(pin "2"
+			(uuid "b569ba5a-50d2-4877-ae41-29f837e35a47")
+		)
+		(instances
+			(project "vccs"
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df/3166c0d2-6a2b-4800-bf61-0bbb68d09ec0"
+					(reference "LD3")
 					(unit 1)
 				)
 			)
@@ -3595,6 +3967,324 @@
 		)
 	)
 	(symbol
+		(lib_id "vickys_symbols:APHHS1005LSECK/J3-PF")
+		(at 88.9 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a769e3cc-1aed-4261-b472-592ceb792bfe")
+		(property "Reference" "LD1"
+			(at 90.678 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHHS1005LSECK/J3-PF"
+			(at 93.98 143.8655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 96.266 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Red, 1.8V, 5mA, 0402 (1005 Metric)"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 98.044 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 98.298 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 100.584 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 100.584 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3091d6f3-34df-48e9-8f3c-c1ddf63282d6")
+		)
+		(pin "2"
+			(uuid "78bafaba-90da-48e9-8d23-6a345ffcccee")
+		)
+		(instances
+			(project ""
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df/3166c0d2-6a2b-4800-bf61-0bbb68d09ec0"
+					(reference "LD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vickys_symbols:APHHS1005LSECK/J3-PF")
+		(at 124.46 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b078b0bb-3631-4646-bb76-2edab346eb46")
+		(property "Reference" "LD5"
+			(at 126.238 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHHS1005LSECK/J3-PF"
+			(at 129.54 143.8655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 131.826 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Red, 1.8V, 5mA, 0402 (1005 Metric)"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 133.604 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 133.858 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 136.144 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 136.144 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ebbb194-06b9-432b-b6d7-234e72164922")
+		)
+		(pin "2"
+			(uuid "edfc3f1a-35cc-40a1-bad4-98ba1c417c44")
+		)
+		(instances
+			(project "vccs"
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df/3166c0d2-6a2b-4800-bf61-0bbb68d09ec0"
+					(reference "LD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vickys_symbols:APHHS1005LSECK/J3-PF")
+		(at 97.79 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5a8b359-a787-4d32-84f6-f1afed8dc3d2")
+		(property "Reference" "LD2"
+			(at 99.568 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHHS1005LSECK/J3-PF"
+			(at 102.87 143.8655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 105.156 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Red, 1.8V, 5mA, 0402 (1005 Metric)"
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 106.934 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 107.188 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 109.474 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 109.474 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a00940-aa50-45ef-9282-233201e4ba16")
+		)
+		(pin "2"
+			(uuid "5841d4bf-50e6-4d3f-90cd-ae5127f05690")
+		)
+		(instances
+			(project "vccs"
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df/3166c0d2-6a2b-4800-bf61-0bbb68d09ec0"
+					(reference "LD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vickys_symbols:GENERIC_R")
 		(at 88.9 128.27 0)
 		(unit 1)
@@ -3846,34 +4536,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 133.35 0)
+		(lib_id "vickys_symbols:APHHS1005LSECK/J3-PF")
+		(at 115.57 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4cbd981-e131-4866-ab56-c232173759c0")
-		(property "Reference" "#PWR011"
-			(at 115.57 139.7 0)
+		(uuid "d3e634aa-cd7e-4fa7-91e9-b5c76e0676d5")
+		(property "Reference" "LD4"
+			(at 117.348 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHHS1005LSECK/J3-PF"
+			(at 120.65 143.8655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 133.35 0)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 122.936 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4573,112 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 133.35 0)
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Red, 1.8V, 5mA, 0402 (1005 Metric)"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 124.714 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 124.968 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 127.254 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 127.254 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2db50c8e-0517-4956-9bb3-ce1ddd044a90")
+		)
+		(pin "2"
+			(uuid "7294b845-5293-421c-b020-647161666314")
+		)
+		(instances
+			(project "vccs"
+				(path "/51025367-ee35-4aed-b93f-40c834da1868/9e4cba35-c259-4fe0-b106-0611d11078df/3166c0d2-6a2b-4800-bf61-0bbb68d09ec0"
+					(reference "LD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cbd981-e131-4866-ab56-c232173759c0")
+		(property "Reference" "#PWR011"
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +4687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 133.35 0)
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +4709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 133.35 0)
+		(at 97.79 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3922,7 +4718,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5356d46-284b-4a91-9f49-2ba3ecde2d3b")
 		(property "Reference" "#PWR09"
-			(at 97.79 139.7 0)
+			(at 97.79 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 138.43 0)
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 133.35 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 133.35 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 133.35 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4775,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 133.35 0)
+		(at 106.68 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3988,7 +4784,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6f90e66-434c-4888-bfbd-791a1b3b8853")
 		(property "Reference" "#PWR010"
-			(at 106.68 139.7 0)
+			(at 106.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4793,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 138.43 0)
+			(at 106.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 133.35 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 133.35 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 133.35 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 133.35 0)
+		(at 124.46 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4054,7 +4850,7 @@
 		(fields_autoplaced yes)
 		(uuid "eebb0dc4-66c9-4d51-940f-5547c2e8b9b5")
 		(property "Reference" "#PWR012"
-			(at 124.46 139.7 0)
+			(at 124.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 138.43 0)
+			(at 124.46 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +4867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 133.35 0)
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 133.35 0)
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 133.35 0)
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
