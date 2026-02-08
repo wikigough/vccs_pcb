@@ -2287,7 +2287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -2296,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -2314,7 +2314,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -2694,7 +2694,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -2703,7 +2703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -2712,7 +2712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC1206FR-07100RL"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -2945,7 +2945,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -2963,7 +2963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/4W"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -3051,7 +3051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -3060,7 +3060,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -3078,7 +3078,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -3087,7 +3087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -3184,7 +3184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 106.68 128.27 0)
 			(effects
 				(font
@@ -3193,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 106.68 128.27 0)
 			(effects
 				(font
@@ -3211,7 +3211,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 106.68 128.27 0)
 			(effects
 				(font
@@ -3220,7 +3220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 106.68 128.27 0)
 			(effects
 				(font
@@ -3229,7 +3229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 106.68 128.27 0)
 			(effects
 				(font
@@ -3317,7 +3317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 208.28 128.27 0)
 			(effects
 				(font
@@ -3326,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC1206FR-071KL"
 			(at 208.28 128.27 0)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 208.28 128.27 0)
 			(effects
 				(font
@@ -3353,7 +3353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 208.28 128.27 0)
 			(effects
 				(font
@@ -3362,7 +3362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/4W"
 			(at 208.28 128.27 0)
 			(effects
 				(font
@@ -3516,7 +3516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RL1206FR-070R33L"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -3543,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -3561,7 +3561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/4W"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -3755,7 +3755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 161.29 128.27 0)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC1206FR-131RL"
 			(at 161.29 128.27 0)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 161.29 128.27 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 161.29 128.27 0)
 			(effects
 				(font
@@ -3800,7 +3800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/4W"
 			(at 161.29 128.27 0)
 			(effects
 				(font
@@ -3888,7 +3888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC1206FR-0710RL"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -3915,7 +3915,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -3924,7 +3924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -3933,7 +3933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/4W"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 128.27 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 88.9 128.27 0)
 			(effects
 				(font
@@ -4366,7 +4366,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 88.9 128.27 0)
 			(effects
 				(font
@@ -4375,7 +4375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 88.9 128.27 0)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 88.9 128.27 0)
 			(effects
 				(font

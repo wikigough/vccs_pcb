@@ -108,7 +108,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_5755f55f)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -142,9 +142,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "project_outputs/")
 		)
 	)
 	(net 0 "")
@@ -21318,17 +21318,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_curve
-		(pts
-			(xy 123.4 56.6) (xy 122.7 60.3) (xy 120 59.7) (xy 120.3 58.4)
-		)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2307dd8f-83f5-4ff5-8bc8-8ec00e64f5e8")
 	)
 	(gr_line
 		(start 113.6 101.6)

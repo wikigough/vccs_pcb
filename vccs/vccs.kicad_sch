@@ -3107,7 +3107,7 @@
 	)
 	(text "SINK & MANUAL SINK CONTROL"
 		(exclude_from_sim no)
-		(at 104.14 72.136 0)
+		(at 96.012 73.152 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3824,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 27.94) (xy 269.24 27.94)
+			(xy 267.97 27.94) (xy 269.24 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3934,7 +3934,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 27.94) (xy 265.43 33.02)
+			(xy 267.97 27.94) (xy 267.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 33.02) (xy 251.46 33.02)
+			(xy 267.97 33.02) (xy 251.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4243,15 +4243,15 @@
 		(dnp no)
 		(uuid "0d395198-91af-4f66-94d9-02f48a9c7254")
 		(property "Reference" "J7"
-			(at 234.315 106.68 0)
+			(at 233.934 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 234.315 109.22 0)
+		(property "Value" "M20-9990246"
+			(at 228.092 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,6 +4277,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M20-9990246"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
 			(at 234.95 111.76 0)
 			(effects
 				(font
@@ -5025,7 +5061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -5034,7 +5070,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BZ71C106KE15L"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -5043,7 +5079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0805"
 			(at 50.8 53.34 0)
 			(effects
 				(font
@@ -5052,7 +5088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -5061,7 +5097,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -5521,7 +5557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "MBR0530T1G"
 			(at 254 30.1624 90)
 			(effects
 				(font
@@ -5539,7 +5575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr0530t1-d.pdf"
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -5550,6 +5586,51 @@
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
 			(at 251.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 251.46 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0530T1G"
+			(at 251.46 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 251.46 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "SOD-123"
+			(at 251.46 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
+			(at 251.46 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,8 +5905,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x10_Pin"
-			(at 171.45 34.798 0)
+		(property "Value" "M20-9961045"
+			(at 170.688 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,6 +5932,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M20-9961045"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" ""
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "THT"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -6473,7 +6599,7 @@
 		(dnp no)
 		(uuid "d0f30eed-5d26-455c-ac55-1f354f437c1e")
 		(property "Reference" "J3"
-			(at 273.685 20.32 0)
+			(at 271.78 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6607,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-K"
-			(at 273.685 22.86 0)
+			(at 276.098 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 232.41 30.48 0)
 			(effects
 				(font
@@ -6696,7 +6822,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 232.41 30.48 0)
 			(effects
 				(font
@@ -6714,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 232.41 30.48 0)
 			(effects
 				(font
@@ -6732,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 232.41 30.48 0)
 			(effects
 				(font
@@ -6819,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -6828,7 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -6846,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -6864,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -6916,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "S2B-PH-K-S"
 			(at 31.115 29.21 0)
 			(effects
 				(font
@@ -6943,6 +7069,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S2B-PH-K-S"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "THT"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
 			(at 30.48 31.75 0)
 			(effects
 				(font

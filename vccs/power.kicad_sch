@@ -2134,7 +2134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2143,7 +2143,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0782KL"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2161,7 +2161,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2179,7 +2179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/16W"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2188,7 +2188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0402"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2267,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R61C106MAALD"
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0603"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -2294,7 +2294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 148.59 86.36 0)
 			(effects
 				(font
@@ -2303,7 +2303,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -2312,7 +2312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Voltage Rating" "16V"
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -2321,7 +2321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -2589,6 +2589,51 @@
 			)
 		)
 		(property "Description" "Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM27762DSS"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "12-WSON"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Y"
 			(at 133.35 85.09 0)
 			(effects
 				(font
@@ -2899,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2908,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0782KL"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2926,7 +2971,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2935,7 +2980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2944,7 +2989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/16W"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2953,7 +2998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0402"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -3032,7 +3077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -3041,7 +3086,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R61C105KA12D"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -3050,7 +3095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0402"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -3059,7 +3104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -3068,7 +3113,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -3077,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Voltage Rating" "16V"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -3086,7 +3131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -3165,7 +3210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -3174,7 +3219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188Z71C225KE43D"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -3183,7 +3228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0603"
 			(at 181.61 92.71 0)
 			(effects
 				(font
@@ -3192,7 +3237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 181.61 95.25 0)
 			(effects
 				(font
@@ -3201,7 +3246,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -3210,7 +3255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Voltage Rating" "16V"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -3219,7 +3264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -3470,7 +3515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 77.47 133.35 0)
 			(effects
 				(font
@@ -3479,7 +3524,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 77.47 133.35 0)
 			(effects
 				(font
@@ -3497,7 +3542,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 77.47 133.35 0)
 			(effects
 				(font
@@ -3506,7 +3551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 77.47 133.35 0)
 			(effects
 				(font
@@ -3515,7 +3560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/10W"
 			(at 77.47 133.35 0)
 			(effects
 				(font
@@ -3604,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -3613,7 +3658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0791KL"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -3631,7 +3676,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -3640,7 +3685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -3649,7 +3694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/16W"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -3658,7 +3703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0402"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -3803,7 +3848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3812,7 +3857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188Z71C225KE43D"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3821,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0603"
 			(at 77.47 104.14 0)
 			(effects
 				(font
@@ -3830,7 +3875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 77.47 106.68 0)
 			(effects
 				(font
@@ -3839,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3857,7 +3902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3937,7 +3982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -3946,7 +3991,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0791KL"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -3964,7 +4009,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -3973,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -3982,7 +4027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" ""
+		(property "Power Rating" "1/16W"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -3991,7 +4036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0402"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -4070,7 +4115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -4079,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188Z71C225KE43D"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -4088,7 +4133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0603"
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -4097,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -4106,7 +4151,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -4124,7 +4169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -4203,7 +4248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 180.34 99.06 0)
 			(effects
 				(font
@@ -4212,7 +4257,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188Z71C225KE43D"
 			(at 180.34 99.06 0)
 			(effects
 				(font
@@ -4221,7 +4266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" ""
+		(property "Package/Case" "0603"
 			(at 180.34 115.57 0)
 			(effects
 				(font
@@ -4230,7 +4275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" ""
+		(property "Mounting Type" "SMT"
 			(at 180.34 118.11 0)
 			(effects
 				(font
@@ -4239,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS" ""
+		(property "RoHS" "Y"
 			(at 180.34 99.06 0)
 			(effects
 				(font
@@ -4248,7 +4293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Voltage Rating" "16V"
 			(at 180.34 99.06 0)
 			(effects
 				(font
@@ -4257,7 +4302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 180.34 99.06 0)
 			(effects
 				(font
